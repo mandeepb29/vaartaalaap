@@ -8,6 +8,10 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
+    path:'videos',
+    loadChildren: './all-videos/all-videos.module#AllVideosModule'
+  },
+  {
     path: '**',
     redirectTo: '/home',
     pathMatch: 'full'
