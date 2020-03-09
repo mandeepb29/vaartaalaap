@@ -59,6 +59,9 @@ body, p {
 img{
 	max-width:100%;
 }
+section{
+	position: relative;
+}
 .p-large {
 	color: #101010;
 	font: 400 1rem/1.5rem 'Raleway', sans-serif;
@@ -150,11 +153,24 @@ a.white {
 	transition: all 0.2s ease;
 }
 
+
 .btn-solid-reg:hover {
 	background-color: transparent;
 	color: #EF9A9A;
 	text-decoration: none;
 }
+
+.btn-blue{
+	border: 0.125rem solid #727ec9 !important;
+	background-color: #727ec9 !important;
+}
+
+.btn-blue:hover{
+	color: #727ec9 !important;
+	background-color: transparent !important;
+}
+
+
 
 .btn-solid-lg {
 	display: inline-block;
@@ -392,9 +408,9 @@ input[type='checkbox'] {
 }
 
 .form-control-submit-button:hover {
-	background-color: #3d528a;
 	border: 1px solid #3d528a;
-	color: #fff;
+	color: #3d528a;
+	background: transparent;
 }
 
 /* Form Success And Error Message Formatting */
@@ -653,7 +669,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 110px;
+    width: 130px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 	transition: all 0.2s ease-in-out;
@@ -1015,6 +1031,7 @@ input[type='checkbox'] {
 /*********************/
 .basic-1 {
 	padding-top: 12rem;
+	background-image: linear-gradient(to bottom, white, #ebedf7);
 	// background: url(/assets/images/video-background.jpg/) center center no-repeat;
 	// background-size: cover; 
 	//background: linear-gradient(45deg,rgba(100, 115, 246, 0.767), rgb(100, 115, 246) ) ;
@@ -1596,7 +1613,7 @@ a:hover.back-to-top {
 
 	/* Navigation */
 	.navbar-custom {
-		padding: 1rem 4vw;
+		padding: 0.5rem 4vw;
 		box-shadow: none;
         background: transparent;
 	}
@@ -1986,10 +2003,10 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom.top-nav-collapse {
-		padding:0.5rem 4vw;
+		padding:0.2rem 4vw;
 		
 		.logo-image img{
-			width: 70px;
+			width: 80px;
 		}
 	}
 	/* end of navigation */
@@ -2000,7 +2017,6 @@ a:hover.back-to-top {
 		width: 44%;
 	}
 	/* end of general styles */
-
 
 	/* Header */
 	.header .text-container {
