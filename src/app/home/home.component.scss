@@ -37,41 +37,7 @@
    background-color: #ffece9;
 }
 
-.heading{
-    font-size: 2.5rem;
-    font-weight: 800;
-    letter-spacing: -0.1rem;
-    position : relative;
-    display: inline-block;
-    z-index: 10;
-     margin-bottom: 1.5rem;
-}
 
-.heading::after{
-    content: "";
-    position: absolute;
-    left: 0px;
-    bottom: 0.5rem;
-    height: 1.2rem;
-    z-index: -1;
-    width: 100%;
-}
-.heading-red{
-    color: #EF9A9A;
-}
-.heading-red::after{
-    background-color: #727ec938;
-}
-
-.heading-blue{
-    color: #727ec9;
-}
-.heading-blue::after{
-    background-color: rgba(239, 154, 154, 0.473);
-}
-.heading-teal{
-    color: #80DEEA;
-}
 
 .about-section {
     .heading-red::after,.heading-blue::after{

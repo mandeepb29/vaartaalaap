@@ -12,6 +12,14 @@ const routes: Routes = [
     loadChildren: './all-videos/all-videos.module#AllVideosModule'
   },
   {
+    path:'policy',
+    loadChildren: './policy/policy.module#PolicyModule'
+  },
+  {
+    path:'terms-and-conditions',
+    loadChildren: './terms-and-conditions/terms-and-conditions.module#TermsAndConditionsModule'
+  },
+  {
     path: '**',
     redirectTo: '/home',
     pathMatch: 'full'
