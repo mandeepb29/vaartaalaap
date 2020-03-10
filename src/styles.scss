@@ -683,7 +683,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-nav {
-	margin-top: 0.75rem;
+	margin-top: 0rem;
 }
 
 .navbar-custom .nav-item .nav-link {
@@ -1623,9 +1623,6 @@ a:hover.back-to-top {
 		color: #fff;
 	}
 
-	.navbar-custom .navbar-nav {
-		margin-top: 0;
-	}
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
@@ -2000,7 +1997,7 @@ a:hover.back-to-top {
 	
 	/* Navigation */
 	.navbar-custom {
-		padding:2rem 4vw;
+		padding:0.8rem 4vw;
 	}
 
 	.navbar-custom.top-nav-collapse {
